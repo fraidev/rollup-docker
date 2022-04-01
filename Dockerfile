@@ -1,3 +1,3 @@
-FROM alpine:3.14
-COPY tezos-tx-rollup-node-alpha /bin/
-CMD ["tezos-tx-rollup-node-alpha"]
+FROM alpine
+COPY tezos-tx-rollup-node-alpha /
+ENTRYPOINT ["tezos-tx-rollup-node-alpha"]
